@@ -1,16 +1,17 @@
-### Hi there 👋
+### Olá! Meu nome é Murillo,seja bem vindo👋
 
-<!--
-**Murillo-Cecilio/Murillo-Cecilio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Sobre o projeto
 
-Here are some ideas to get you started:
+realizado uma Landing Page, enquanto estudo javascript, fiz um efeito sonoro totalmente voltado no js para aprender a usar códigos e desenvolver a linguagem
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Tecnologias utilizadas
+
+## Front end
+- HTML
+- CSS
+- Javascript
+
+# Autor
+
+Murillo Cecilio Moreira
+https://www.linkedin.com/in/murillocecilio/
