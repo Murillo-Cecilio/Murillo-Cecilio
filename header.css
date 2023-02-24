@@ -1,149 +1,72 @@
-header {
-    display: block;
+:root {
+    font-size: 16px;
+    --royal-blue-light: #000000ef;
+    --royal-blue-dark: #343a92;
+    --white: #fff;
+    --backgroud: #e2e3e9;
 }
 
-.caixa {
-    display: flex;
-    justify-content: space-around;
-}
-
-.caixa nav {
-    display: flex;
-    font-size: 45px;
-    flex-direction: row;
-}
-
-.contato-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-form {
-    margin: 40px 25px;
-    /* width: 100%; */
-    height: 100em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-#banner {
-    display: inline-block;
-}
-
-.video {
-    display: flex;
-    align-items: initial;
+* {
+    margin: 0;
     padding: 0;
-    margin: 2em 1em;
-    width: 90%;
-}
-
-.mapa-conteudo {
-    display: flex;
-}
-
-.mapa {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    margin: 0 5px;
-    align-items: center;
-}
-
-.principal {
-    display: flex;
-    flex-direction: column;
-    margin: 0 3em;
-    text-align: center;
-    align-items: center;
-}
-
-.principal p {
-    margin: 2em;
-}
-
-footer {
-    width: 70em;
-}
-
-.botao {
-    padding: 0;
-    flex-grow: 1;
-    width: 20%;
-    text-align: center;
-}
-
-.input-padrao {
-    width: 85%;
-    height: 3.5em;
-    padding: 0;
-    font-weight: bold;
-}
-
-.enviar {
-    width: auto;
-}
-
-select {
-    width: 10em;
-    height: 3em;
-}
-
-.rodape {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    box-sizing: border-box;
 }
 
 body {
-    background: url("img/background.jpeg");
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* @media screen and (min-width:1024px){
-    .video {
-        margin-left: 20%;
-    }
+a {
+    color: var(--white);
+    text-decoration: none;
+}
 
-    .mapa-conteudo {
-        width: 50em;
-        margin: 10%;
-        align-items: center;
-        flex-direction: row;
-    }
-} */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--royal-blue-light);
+    height: 4.6875rem;
+    padding: 1rem;
+}
 
-.mapa {
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-menu {
     display: none;
 }
 
-@media screen and (max-width:768px) {
-    body {
-        min-width: 100vw;
-        min-height: 100vh;
-    }
+.menu a {
+    display: block;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
 
-    .header-mobile {
-        display: block;
-    }
+.menu a:hover {
+    background: var(--royal-blue-dark);
+}
 
-    .header-desk {
-        display: none;
-    }
+.label-menu,
+.checkbox {
+    display: none;
+}
 
+@media (max-width: 768px) {
     .menu {
         display: block;
         position: absolute;
         top: 4.6875rem;
         left: 0;
-        background: blue;
+        background: var(--royal-blue-light);
         text-align: center;
         width: 100%;
         height: 0;
@@ -153,7 +76,7 @@ body {
         transition: 0.5s;
     }
 
-    .menu a {
+    .menu-link {
         padding: 1rem 0;
         margin-inline: 1rem;
         border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.16);
@@ -164,7 +87,7 @@ body {
         display: flex;
         align-items: center;
         gap: 0.5rem;
-        color: white;
+        color: var(--white);
         padding: 1rem 0;
         cursor: pointer;
     }
@@ -175,7 +98,7 @@ body {
     }
 
     .btn-menu {
-        display: block;
+        display: none;
     }
 
     .hamburger::after,
@@ -209,44 +132,13 @@ body {
         top: -0.4375rem;
     }
 
-    a {
-        color: white;
-        text-decoration: none;
+    p,h2 {
+        padding: 2em 0.5em;
     }
 
-    .header-mobile {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background: blue;
-        height: 4.6875rem;
-        padding: 1rem;
+    .links {
+        margin:0 1em;
     }
-
-    .logo {
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-
-    .btn-menu {
-        display: none;
-    }
-
-    .menu a {
-        display: block;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        color: white;
-    }
-
-    .menu a:hover {
-        background: blue;
-    }
-
-    .label-menu,
-    .checkbox {
-        display: none;
-    }
-
 
 }
+

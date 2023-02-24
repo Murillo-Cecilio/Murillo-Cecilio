@@ -35,18 +35,6 @@ header {
 	margin:0 auto;
 }
 
-nav a {
-	text-transform: uppercase;
-	color: #000000;
-	font-weight:bold;
-	font-size:22px;
-	text-decoration: none;
-
-}
-nav a:hover {
-	color: #C78C19;
-	text-decoration:underline;
-}
 .produtos{
 	justify-content: space-around;
 	display: flex;
