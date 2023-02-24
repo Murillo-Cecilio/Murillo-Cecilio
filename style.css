@@ -1,190 +1,386 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+html {
+	width: 100vw;
 }
-
 body {
-    font-size: 100%;
-    background: linear-gradient(90deg, #00AADD 16%, #0e4477 84%);
-    min-width: 100vw;
-    min-height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	width: 100vw;
 }
 
-.cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
+h1 {
+	color: #FFF;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
-.cabecalho-imagem {
-    display: flex;
-    max-width: 10%;
-    max-height: 10%;
-    width: 50vw;
-    height: auto;
+header {
+	background:#000;
+	z-index: -1;
+	padding-bottom: 20px;
+	width: 100vw;
 }
 
-.cabecalho-imagem:hover {
-    opacity: 0.5;
+.caixa {
+	background:#000;
+	padding:20px 0;
+	width: 100vw;
 }
 
-.cabecalho-menu {
-    display: flex;
-    gap: 32px
+.header-link {
+	color: #FFF;
+	text-decoration: none;
+}
+.caixa {
+	position:relative;
+	width: 100vw;
+	margin:0 auto;
 }
 
-.cabecalho-menu-item {
-    font-family: 'Sarala', sans-serif;
-    color: #babd2e;
-    font-weight: 400;
-    font-size: 18px;
-    transition: 400ms;
-}
-
-.cabecalho-menu-item:hover {
-    font-size: 30px;
-    color: coral;
-    font-weight: 600;
-    transition: 400ms;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.cabecalho-menu-item:active {
-    color: beige;
-}
-
-.conteudo {
-    border-top: 0.4px solid #FFF2E7;
-}
-
-.conteudo-principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight:bold;
+	font-size:22px;
+	text-decoration: none;
 
 }
-
-.conteudo-principal-escrito {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    max-width: 45vw;
+nav a:hover {
+	color: #C78C19;
+	text-decoration:underline;
+}
+.produtos{
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	width: 70vw;
+}
+.produtos-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
 }
 
-.conteudo-principal-escrito-titulo {
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 64px;
-    color: #FFF2EF;
+
+.produtos li:active {
+	border-color:#088C19;
 }
 
-.conteudo-principal-escrito-subtitulo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #ECD6C4;
+.produtos li:hover h2 {
+	font-size: 34px;
 }
 
-.conteudo-principal-escrito-botao {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    position: relative;
-    color: rgb(2, 14, 36);
-    line-height: 28px;
-    border: 1px solid blueviolet;
-    overflow: hidden;
-    cursor: pointer;
-    padding: 0 auto;
-    border-radius: 20px;
-    background-color: rgb(35, 151, 112);
-    width: 170px;
-    height: 45px;
-    transition: 1.9s;
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
 }
 
-.conteudo-principal-escrito-botao:hover {
-    background-color: #babd2e;
-    transition: 1.9s;
+.produto-descricao {
+	font-size:18px;
 }
 
-.conteudo-principal-imagem {
-    max-width: 430px;
-    max-height: 350px;
-    width: 50vw;
-    height: auto;
-}
-
-.conteudo-secundario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 28px;
-    margin-top: 48px;
-}
-
-.conteudo-secundario-titulo {
-    border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFF2EF;
-    margin-bottom: 8px;
-}
-
-.conteudo-secundario-paragrafo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #FFF2E7;
-}
-
-.video {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    height: 90%;
+.produto-preco {
+	font-size:20px;
+	font-weight:bold;
+	margin-top:10px;
 }
 
 footer {
-    background: url(rodalogo.jpg);
-    background-size: contain;
-}
-
-.rodape {
-    border-top: 0.4px solid #FFF2E7;
-    display: block;
+	text-align: center;
+	background:#555555;
+	width: 100vw;
 }
 
 .copyright {
-    color: white;
-    font-size: 13px;
-    text-align: center;
-    padding-top: 100px;
+	color: #000;
+	font-size: 16px;
+	font-weight: 800;
+	margin: 20px 0 0 0;
 }
 
-@media screen and (min-width:1320px) {
-    .cabecalho {
-        justify-content: center;
-    }
-    .cabecalho-menu{
-        font-size: 60em;
-    }
-    .rodape {
-        min-height: 25vh;
-    }
-    .copyright {
-        display:inline;
-        font-size: 25px;
-        padding:20em;
-    }
+.footer-img {
+	height: 10%;
+	width: auto;
+}
 
+main {
+	margin:0 auto;
 
 }
+
+label {
+	background-color: rgba(255, 255, 255, 0.288);
+}
+
+form {
+	text-align: center;
+	color:rgb(0, 0, 0);
+	font-size: 22px;
+	font-weight: bold;
+
+}
+
+form label, form legend {
+	display: block;
+	font-size:20px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding:10px 25px;
+	width:50%;
+}
+
+.checkbox {
+	margin:20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding:15px 6px;
+	background:orange;
+	color:white;
+	font-weight:bold;
+	font-size:18Px;
+	border:none;
+	border-radius:5px;
+	transition:2s background;
+	cursor:pointer;
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.enviar:hover {
+	background:darkorange;
+	transform:scale(1.2);
+}
+
+table {
+	margin:0 auto;
+}
+
+/* .contato-main {
+	margin-left: 30em;
+} */
+
+thead {
+	background: #555555;
+	color:white;
+	font-weight:bold;
+}
+
+td,th {
+	border:10px solid #000000;
+	padding: 8px 15px ;
+}
+
+.banner {
+	width:100vw;
+	height: 25em;
+
+}
+
+/* css da página inicial */
+
+.titulo-principal {
+	text-align:center;
+	font-size: 2em;
+	margin:0 0 2em;
+	clear:left;
+	text-shadow:2px 2px 3px orange;
+}
+
+.titulo-principal:first-letter {
+	font-weight: bold;
+	color: darkorange;
+	
+}
+
+.principal {
+	padding:3em 0;
+	background: #FEFEFE;
+	font-size: 20px;
+	font-weight: 800;
+	width: 90vw;
+	text-align: center;
+}
+
+.principal p {
+	margin:0 0 1em;
+}
+
+.principal strong{
+	font-weight:bold;
+}
+
+.principal em{
+	font-style:italic;
+}
+
+.utensilios{
+	width:50%;
+	float:left;
+	margin:0 20px 20px 0;
+}
+
+.botao {
+	text-decoration: none;
+	border: 10px solid #C78C19;
+	background-color: #C78C19;
+	color: #000000;
+	border-radius: 12px;
+	padding: 0.5em;
+}
+
+.mapa {
+	padding: 3em 0;
+	background:linear-gradient(#FEFEFE,#999999);
+}
+
+.mapa p {
+	margin:0 0 2em;
+	text-align:center;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.beneficios {
+	padding:3em 0;
+	background: #999999;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin:0 auto;
+}
+
+.itens {
+	line-height:1.5;
+}
+
+.itens:first-child {
+	font-weight:bold;
+}
+
+.itens:before {
+	content:"★ " ;
+}
+
+.lista-beneficios {
+	width:40%;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.imagem-beneficios {
+	width: 60%;
+	opacity:1;
+	transition:400ms;
+	box-shadow:10px 10px 10px #000000 ;
+}
+
+.imagem-beneficios:hover {
+	opacity:0.3;
+	transition:400ms;
+}
+
+.rodape {
+	background-image: url("img/rodape2.png") ;
+	width: 100vw;
+	display: block;
+}
+
+.video {
+	width: 80vw;
+	height: 30rem;
+	align-items: center;
+	margin: 0;
+	position: relative;
+}
+
+.header-mobile {
+	display: none;
+}
+
+/* @media screen and (max-width: 480px) {
+	#banner, .principal, .conteudo-beneficios, .mapa-conteudo, .video, main {
+		width:130vh;
+		padding: 5em;
+		
+	}
+	html {
+		max-width: 480px;
+		width: auto;
+	}
+	.caixa {
+		width:130vh;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+
+	footer {
+		width: 190vh;
+	}
+
+	.caixa {
+		width: 190vh;
+		height: 120vw;
+	}
+	#banner {
+		width: auto;
+		height: auto;
+		padding: 0;
+	}
+
+	.video {
+		padding-left: 15em;
+		width: auto;
+		height: auto;
+	}
+
+	nav {
+		position:static;
+	}
+	.header-link{
+		font-size: 7em;
+		display: block;
+		padding-left:3em;
+		border-bottom: 2px solid rgb(199, 202, 19);
+		margin-left: 1em;
+		text-align: center;
+	}
+
+	.lista-beneficios, .imagem-beneficios,.produtos li {
+		width:auto;
+	}
+	.produtos {
+		width:auto;
+	}
+
+	.contato-main {
+		height: 90%;
+		font-size: larger;
+		display: flex;
+		width: auto;
+		justify-content: space-around;
+		margin-bottom: 60em;
+	}
+
+	.form {
+		max-width: 480px;
+		width: 100%;
+		max-height: 900px;
+		height: 100%;
+	}
+
+	.copyright {
+	font-size: 10em;
+	}
+
+} */
+
+
