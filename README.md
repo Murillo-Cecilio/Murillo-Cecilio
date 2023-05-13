@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-realizado uma Landing Page, enquanto estudo javascript, fiz um efeito sonoro totalmente voltado no js para aprender a usar códigos e desenvolver a linguagem
+Realizando projetos no JavaScript puro, aprendendo sempre algo novo no JS e códigos e desenvolver a linguagem!
 
 # Tecnologias utilizadas
 
@@ -12,6 +12,7 @@ realizado uma Landing Page, enquanto estudo javascript, fiz um efeito sonoro tot
 - Javascript
 
 # Autor
+Murillo Cecílio
 
 Murillo Cecilio Moreira
 https://www.linkedin.com/in/murillocecilio/
