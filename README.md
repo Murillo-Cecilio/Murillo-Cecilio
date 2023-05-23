@@ -1,4 +1,4 @@
-# Olá! Meu nome é Murillo,seja bem vindo�
+## Olá! Meu nome é Murillo,seja bem vindo👋
 
 ## Sobre o projeto
 
@@ -11,7 +11,7 @@ Realizando projetos no JavaScript puro, aprendendo sempre algo novo no JS e cód
 - CSS
 - Javascript
 
-# Autor
+## Autor
 Murillo Cecílio
 
 Murillo Cecilio Moreira
