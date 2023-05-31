@@ -11,7 +11,5 @@ Realizando projetos no JavaScript puro, aprendendo sempre algo novo no JS e cód
 -CSS
 - Javascript
 
-## Autor
-Murillo Cecílio
 ## Redes sociais
 https://www.linkedin.com/in/murillocecilio/
