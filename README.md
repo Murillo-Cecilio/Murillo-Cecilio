@@ -8,11 +8,10 @@ Realizando projetos no JavaScript puro, aprendendo sempre algo novo no JS e cód
 
 ## Front end
 - HTML
-- CSS
+-CSS
 - Javascript
 
 ## Autor
 Murillo Cecílio
 ## Redes sociais
-Murilo Cecílio
 https://www.linkedin.com/in/murillocecilio/
