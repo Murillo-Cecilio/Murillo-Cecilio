@@ -13,6 +13,6 @@ Realizando projetos no JavaScript puro, aprendendo sempre algo novo no JS e cód
 
 ## Autor
 Murillo Cecílio
-
-Murillo Cecilio Moreira
+## Redes sociais
+Murilo Cecílio
 https://www.linkedin.com/in/murillocecilio/
