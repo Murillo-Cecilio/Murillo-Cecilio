@@ -6,10 +6,10 @@ Realizando projetos no JavaScript puro, aprendendo sempre algo novo no JS e cód
 
 ## Tecnologias utilizadas
 
-## Front end
+## Front-end
 - HTML
--CSS
-- Javascript
+- CSS
+-Javascript
 
 ## Redes sociais
 https://www.linkedin.com/in/murillocecilio/
