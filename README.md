@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-Realizando projetos no JavaScript puro, aprendendo sempre algo novo no JS e códigos e desenvolver a linguagem!
+Realizando projetos no JavaScript puro, aprendendo sempre algo novo no JS e código e desenvolve a linguagem!
 
 ## Tecnologias utilizadas
 
