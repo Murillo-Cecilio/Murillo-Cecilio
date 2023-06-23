@@ -11,5 +11,8 @@ Realizando projetos no JavaScript puro, aprendendo sempre algo novo no JS e cód
 - CSS
 - Javascript
 
+### Back-end
+- Python
+
 ## Redes sociais
 https://www.linkedin.com/in/murillocecilio/
